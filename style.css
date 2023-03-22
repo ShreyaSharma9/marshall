@@ -1,0 +1,529 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    font-size: small;
+    color: white;
+    padding-top: 20px;
+
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar-2{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+.navbar-2 img{
+    height: 30px;
+}
+.navbar-2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.Primary-links{
+    width: 45%;
+    font-size: small;
+}
+.Secondary-links{
+    width: 15%;
+}
+.Ind-btn{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+
+}
+.Hero-section{
+    height: 100vh;
+    width: 100%;
+
+}
+.image-section{
+    height: 100vh;
+    background-image: url(pic-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.text-section h1{
+    margin-top: 450px;
+    font-size: 40px;
+}
+.text-section h3{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: lighter;
+    width: 60%;
+    display: flex;
+    margin-left: 100px;
+    
+    
+}
+.find-btn{
+    height: 40px;
+    width: 12%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Hero-section-two{
+    height: 130vh;
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    /* position: absolute; */
+    padding: 50px 0px;
+    
+}
+.image-section-two{
+    height: 90vh;
+    width: 80%;
+    background-image: url(logo2.jpg);
+    margin-left: 130px;
+    background-position: center;
+    background-size: cover;
+}
+.text-section-two{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-section-two h1{
+    margin-top: 30px;
+}
+.text-section-two h3{
+    font-size: medium;
+    font-weight: lighter;
+    width: 40%;
+    display: flex;
+    margin-left: 100px;
+
+}
+.explore-btn{
+    height: 40px;
+    width: 12%;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.Hero-section-three{
+    height: 90vh;
+}
+.image-section-three{
+    height: 100vh;
+    background-image: url(imge-1.jpg);
+    background-size: cover;
+}
+.text-section-three{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.text-section-three h1{
+    margin-top: 300px;
+    margin-left: 750px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.text-section-three h3{
+    margin-left: 752px;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 30px;
+    
+}
+.findmore-btn{
+    background-color: white;
+    height: 40px;
+    width: 12%;
+    font-weight: bold;
+    border: none;
+    margin-left: 740px;
+
+}
+.Hero-section-four{
+    height: 90vh;
+    display: flex;
+}
+.image-section-four{
+    width: 50%;
+    background-image: url(imge-2.jpg);
+    background-size: cover;
+}
+.image-section-half{
+    width: 50%;
+    background-image: url(imge-4.jpg);
+    background-size: cover;
+}
+.text-section-four{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.text-section-four h1{
+    width: 300px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+.text-section-four h3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+}
+.findd-btn{
+    background-color: white;
+    height: 40px;
+    width: 25%;
+    font-weight: bold;
+    border: none;
+    margin-right: 55px;
+
+}
+.Hero-section-five{
+    height: 90vh;
+    display: flex;
+}
+.image-section-five{
+    width: 50%;
+    background-image: url(img-5.jpg);
+    background-size: cover;
+}
+.image-section-five-half{
+    width: 50%;
+    background-image: url(img-6.jpg);
+    background-size: cover;
+}
+.text-section-five{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.text-section-five h1{
+    margin-top: 250px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.text-section-five h3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.findmoree-btn{
+    background-color: white;
+    height: 40px;
+    width: 25%;
+    font-weight: bold;
+    border: none;
+    margin-right: 60px;
+}
+.Hero-section-six{
+    height: 90vh;
+    display: flex;
+}
+.image-section-six{
+    width: 50%;
+    background-image: url(img-7.jpg);
+    background-size: cover;
+}
+.image-section-six-half{
+    width: 50%;
+    background-image: url(img-8.jpg);
+    background-size: cover;
+}
+.text-section-six{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.text-section-six h1{
+    margin-top: 280px;
+    margin-bottom: 20px;
+}
+.text-section-six h3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+.FIND-btn{
+    background-color: white;
+    height: 40px;
+    width: 25%;
+    font-weight: bold;
+    border: none;
+    
+
+}
+.Hero-section-seven{
+    height: 90vh;
+    display: flex;
+}
+.image-section-seven{
+    width: 50%;
+    background-image: url(img-9.jpg);
+    background-size: cover;
+}
+.image-section-seven-half{
+    width: 50%;
+    background-image: url(img-10.jpg);
+    background-size: cover;
+}
+.text-section-seven{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-section-seven h1{
+    margin-top: 270px;
+    margin-bottom: 20px;
+}
+.text-section-seven h3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.Find-btn{
+    background-color: white;
+    height: 40px;
+    width: 25%;
+    font-weight: bold;
+    border: none;
+}
+.bar{
+    height: 100px;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+.bar h2{
+    font-size: 18px;
+    width: 300px;
+    margin-left: 100px;
+    
+}
+input{
+    height: 40px;
+    width: 27%;
+    border: none;
+    
+}
+.bar h3{
+    font-weight: bold;
+    font-size: 15px;
+    width: 280px;
+}
+.bar h3 a{
+    color: white;
+}
+.sub-btn{
+    background-color: white;
+    color: black;
+    width: 12%;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    
+}
+.Hero-section-nine{
+    height: 140vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+.text-section-nine{
+    color: white;
+    display: flex;
+    
+    
+}
+.text-section-nine h2{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    
+    
+
+}
+.text-section-nine ul{
+    color: rgb(177, 171, 171);
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    list-style: none;
+    margin-left: 85px;
+    margin-top: 20px
+}
+.text-section-nine h3{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+    
+
+}
+.Tertiory-links h2{
+    margin-top: 240px;
+    /* margin-right: 900px; */
+    margin-left: -580px;
+    
+}
+.Tertiory-links li{
+    margin-left: -580px;
+}
+.text-section-due{
+    color: white;
+    margin-left: 1000px;
+    margin-top: -280px;
+
+    display: flex;
+    flex-direction: column;
+}
+.text-section-due h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.text-section-due h3{
+    color: gray;
+    font-weight: lighter;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.login-btn{
+    width: 50%;
+    height: 35px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: small;
+}
+.create-btn{
+    width: 50%;
+    height: 35px;
+    border: none;
+    font-size: small;
+}
+.text-section-due-1{
+    color: white;
+    margin-top: 250px;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-section-due-1 h2{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.text-section-due-1 h4{
+    color: gray;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 460px;
+    margin-left: -60px;
+
+}
+#logo-3{
+    height: 20px;
+    width: 23px;
+}
+#logo-4{
+    height: 20px;
+    width: 23px;
+}
+#logo-5{
+    height: 20px;
+    width: 23px;
+}
+#logo-6{
+    height: 20px;
+    width: 23px;
+}
+#logo-7{
+    height: 20px;
+    width: 23px;
+}
+.text-section-due-2{
+    color: white;
+    display: flex;
+    
+}
+.text-section-due-2 h4{
+    margin-left: 50px;
+    margin-top: 150px;
+    font-size: 13px;
+    width: 400px;
+    
+}
+#logo-2{
+    margin-top: 90px;
+    margin-left: 150px;
+    height: 150px;
+    width: 190px;
+}
+.text-section-due-2 li{
+
+    margin-top: 145px;
+    margin-left: 190px;
+    font-size: 30px;
+    list-style: none;
+    margin-right: -150px;
+}
